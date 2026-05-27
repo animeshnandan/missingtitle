@@ -6,9 +6,9 @@ st.title("Missing Titles Finder")
 
 with st.expander("Instructions", expanded=True):
     st.markdown("""
-1. **Download the Title Cabinet Excel file** from email.
+1. **Download the Title Cabinet Excel file (BOX - MM/DD/YYYY)** from email.
 2. **Download the Auction Run Report** from CATS for the particular auction date using the link below.
-3. **Open the Auction Run Report**, copy the data, and paste it onto a new sheet in the Title Cabinet Excel file.
+3. **Open the Auction Run Report**, copy the data, and paste it onto a new sheet in the Title Cabinet Excel file  (BOX - MM/DD/YYYY).
 4. **Save the file** and upload it below to get the list of stock numbers with missing titles.
 """)
     st.markdown("[Open Auction Run Report on CATS](https://cats.capitalautoauction.com/reports/customized/vehicles-summary?selected_report=&date_type=auctionAt&date_from=05%2F23%2F2026&date_to=05%2F23%2F2026&yard=&auctionType=&lane=&no_title=&isReleased=&stock_number_from=&stock_number_to=&arbitration=2&driver_assigned=&qb_check_printed=&charity_paid=&green_light=&title_status=&report_group=&quote_status=&pp_bid_id=&auto_offer_type_id=&priority_lead=&priority_second_lead=&has_tasks=&innovative_claims=&bidderSearchType=phone&bidderQuery=&is_avg_wear=&showPicture=0&showDocuments=0&removeCancelled=0&removeTitleChecked=0&removeSold=0&excludeDirectBuy=0&report_title=&available_fields%5B%5D=34&available_fields%5B%5D=124&available_fields%5B%5D=1&selected_fields%5B%5D=1&selected_fields%5B%5D=34&selected_fields%5B%5D=124&report_name=&report_format=web&report_range=&report_featured=0&report_id=)")
